@@ -12,29 +12,11 @@
     "remote": "gitlab"
   },
   {
-    "repository": "vendor_oneplus_avicii-vendor",
-    "target_path": "vendor/oneplus/avicii-vendor",
-    "branch": "eleven",
-    "remote": "pixel-devices-blobs"
-  },
-  {
     "repository": "AmolAmrit/platform_vendor_oneplus_apps",
     "target_path": "vendor/oneplus/apps",
     "branch": "eleven",
     "remote": "gitlab"
   },  
-  {
-    "repository": "AmolAmrit/vendor_oneplus-firmware",
-    "target_path": "vendor/oneplus/firmware",
-    "branch": "eleven",
-    "remote": "gitlab"
-  },
-  {
-    "remote": "private",
-    "repository": "AospExtended-Devices/platform_external_avb-keys",
-    "target_path": "external/avb-keys",
-    "branch": "master"
-  },
   {
     "repository": "AospExtended/platform_packages_resources_devicesettings",
     "target_path": "platform/packages/resources",

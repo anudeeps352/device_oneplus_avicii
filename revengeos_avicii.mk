@@ -22,15 +22,15 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from avicii device
 $(call inherit-product, device/oneplus/avicii/device.mk)
 
-# Inherit some common AospExtended stuff.
-$(call inherit-product, vendor/aosp/common.mk)
+# Inherit some common Revengeos stuff.
+$(call inherit-product, vendor/revengeos/config/common.mk)
 
-# Aosp Extended Properties
+# Revengeos Properties
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_USES_AOSP_RECOVERY := true
 EXTRA_FOD_ANIMATIONS := true
 
-PRODUCT_NAME := aosp_avicii
+PRODUCT_NAME := revengeos_avicii
 PRODUCT_DEVICE := avicii
 PRODUCT_MANUFACTURER := OnePlus
 PRODUCT_BRAND := OnePlus
